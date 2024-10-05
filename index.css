@@ -1,0 +1,257 @@
+.navbar-logo {
+    width: 150px;
+    height: 80px;  
+}
+.custom{
+    background-color: rgba(153, 155, 153, 0.258);
+}
+.nav-img{
+    height: 90px;
+    width: 150px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-color: rgba(216, 217, 215, 0.258);;
+}
+.dropdown-item{
+    border: none;
+    border-radius: 20px;
+}
+.dropdown-item:hover{
+    background-color: rgb(242, 239, 238);
+}
+.image{
+  width: 100%;
+  height: 250px;
+}
+.new-arrival:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.new-arrival img{
+    height: 300px;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.new h2{
+    margin: 50px 0px;
+}
+.bg-color{
+    background-color: rgb(250, 98, 129);
+    color: white;
+}
+.new-arrival .card{
+    justify-content: center;
+    text-align: center;
+}
+.image1{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.image2{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.image5{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+.cart{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+/* fotter */
+.footer {
+    padding: 40px 30px;
+    background-color: rgb(17, 15, 12);
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons .bi{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.social-icons .bi:hover{
+    color: bisque;
+}
+.footer p {
+    font-size: 20px;
+}
+/*Registration*/
+.reg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140vh;
+}
+
+@media(max-width:1200px){
+    .reg-container{
+        height: 160vh;
+    }
+}
+@media(max-width:425px){
+    .reg-container{
+        height: 180vh;
+    }
+}
+.reg-card{
+    background-color: rgba(149, 91, 91, 0.5);
+    padding: 40px;
+    margin-top: 50px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+}
+.input-container{
+    text-align: left;
+    margin-bottom: 20px;
+}
+ h2{
+    color: rgb(126, 5, 5);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.input-container label{
+    font-size: 20px;
+    color: rgb(146, 78, 25);
+    margin-bottom:10px ;
+    display: block;
+}
+.reg-container input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color:rgb(102, 235, 13);
+}
+.reg-container input:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.btn1{
+    color: rgb(29, 29, 28);
+    background-color: rgb(146, 78, 25);
+    padding: 10px 30px;
+    border: none;
+    font-size:18px;
+    cursor: pointer;
+    margin-left:10px ;
+    border-radius: 10px;
+    transition:  background-color 0.8s;
+}
+.btn1:hover{
+    background-color:rgb(29, 29, 28) ;
+    color:rgb(146, 78, 25) ;
+}
+/*login form */
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-card{
+    background-color: rgba(0,0,0,0.5);
+    padding: 40px;
+    margin-top: 50px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+}
+.login-container input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color:rgb(33, 71, 8);
+}
+.login-container input:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.forgot{
+    text-decoration: none;
+    color:rgb(146, 78, 25) ;
+}
+.submit{
+    text-decoration: none;
+    color: rgb(29, 29, 28);
+}
+.submit:hover{
+    color:rgb(146, 78, 25) ;
+}
+.sign-link{
+    margin-top: 30px;
+    color: burlywood;
+}
+.sign-link a{
+    text-decoration: none;
+    color:rgb(146, 78, 25);
+    font-weight: 800;
+}
+.sign-link a:hover{
+    color:rgb(26, 26, 24);
+}
+
+
